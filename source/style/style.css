@@ -8,6 +8,7 @@ body {
   font-weight: 400;
   color: white;
   font-size: 16px;
+  background: black;
 }
 a {
   text-decoration: none;
@@ -297,6 +298,82 @@ header nav ul li.btn a:hover,
   color: white;
   border-radius: 8px;
 }
+/*страница контакты*/
+.hero-contacts h1 {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 30px;
+  font-size: 33px;
+}
+.hero-contacts p {
+  text-align: center;
+}
+.hero-contacts img {
+  width: 70%;
+  margin: 80px 15%;
+}
+.feedback {
+  padding: 70px;
+  background: #1c140f;
+}
+.feedback h2 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 30px;
+}
+.feedback p {
+  text-align: center;
+  margin-top: 10px;
+}
+.feedback form {
+  margin: 80px auto;
+  width: 600px;
+}
+.feedback form .inline {
+  display: flex;
+  justify-content: space-between;
+}
+.feedback form .inline > div {
+  width: 50%;
+}
+.feedback form label {
+  color: #4f4f4f;
+  font-size: 14px;
+}
+.feedback form input,
+.feedback form textarea {
+  background: #2c2420;
+  border-radius: 10px;
+  border: 0.6px solid #cecece;
+  display: block;
+  width: 90%;
+  padding: 15px 10px;
+  outline: none;
+  color: #fff;
+  margin-top: 7px;
+  margin-bottom: 20px;
+}
+.feedback form .one-line {
+  width: 95%;
+}
+.feedback form textarea {
+  resize: none;
+  height: 200px;
+}
+.feedback form button {
+  background: #dc7000;
+  border-radius: 5px;
+  border: none;
+  float: right;
+  cursor: pointer;
+  color: white;
+  padding: 15px 35px;
+  margin-right: 8px;
+  transition: all 500ms ease;
+}
+.feedback form button:hover {
+  background: #a02604;
+}
 /* страница про нас */
 .hero-about {
   position: relative;
@@ -340,17 +417,17 @@ header nav ul li.btn a:hover,
   margin: 20px 0;
 }
 
-.work .blocks .block .badge{
+.work .blocks .block .badge {
   border-radius: 7px;
-  padding: 10px 20px ;
-} 
-.work .blocks .block .badge.green{
+  padding: 10px 20px;
+}
+.work .blocks .block .badge.green {
   background: green;
 }
-.work .blocks .block .badge.purple{
+.work .blocks .block .badge.purple {
   background: purple;
 }
-.work .blocks .block .badge.brown{
+.work .blocks .block .badge.brown {
   background: brown;
 }
 /* footer */
