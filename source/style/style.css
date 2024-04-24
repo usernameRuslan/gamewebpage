@@ -333,6 +333,25 @@ header nav ul li.btn a:hover,
   width: 25%;
   border-radius: 10px;
   padding: 50px 35px;
+  background: #1c140f;
+}
+.work .blocks .block h3 {
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+.work .blocks .block .badge{
+  border-radius: 7px;
+  padding: 10px 20px ;
+} 
+.work .blocks .block .badge.green{
+  background: green;
+}
+.work .blocks .block .badge.purple{
+  background: purple;
+}
+.work .blocks .block .badge.brown{
+  background: brown;
 }
 /* footer */
 footer {
