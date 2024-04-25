@@ -24,6 +24,7 @@ img {
     rgba(26, 14, 0, 1) 100%
   );
   overflow-x: hidden;
+ 
 }
 .container {
   width: 1400px;
@@ -384,9 +385,7 @@ header nav ul li.btn a:hover,
   position: relative;
   display: inline-block;
   margin-top: 74px;
-
- 
- }
+}
 .search-container input {
   background: #1c140f;
   outline: none;
@@ -404,7 +403,7 @@ header nav ul li.btn a:hover,
 .search-container input[type='text'] {
   padding-left: 65px; /* Отступ для изображения кнопки */
 }
-.search-container .search-button{
+.search-container .search-button {
   position: absolute;
   top: 0;
   left: 0;
@@ -413,10 +412,101 @@ header nav ul li.btn a:hover,
   border: none;
   cursor: pointer;
   background: #1c140f;
-  }
+}
 
 .search-container input::placeholder {
   color: white;
+}
+/* left+right side news */
+
+.hero-news {
+ 
+  display: flex;
+  
+  padding-top: 103px;
+  padding-bottom: 73px;
+  padding-left: 110px;
+  padding-right: 54px;
+}
+
+.hero-news .hero-left-news {
+  width: 587px;
+  padding-right:72px ;
+}
+.hero-news .hero-left-news h1 {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 21px 0;
+  margin-bottom: 32px;
+}
+.hero-news .hero-left-news p {
+  font-size: 17px;
+  line-height: 200%;
+  width: 529px;
+}
+.hero-left-news hr {
+  margin: 77px 0;
+  border: 0;
+  height: 0.7px;
+  background: #a5a5a5;
+}
+.btn-info-one {
+  font-family: 'poppins', sans-serif;
+  font-size: medium;
+
+  cursor: pointer;
+  border: 0;
+
+  height: 48px;
+  width: 164px;
+  color: white;
+  background: #2351f5;
+  margin-top: 15px;
+  margin-right: 18px;
+}
+/* right news*/
+.hero-right-news{
+  display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+}
+.info-two {
+  display: flex;
+  align-items: center;
+  
+}
+.right-content {
+  flex-grow: 1;
+}
+.info-btn-two { 
+  display: flex;
+  align-items: center;
+  
+}
+
+ .info-btn-two span {
+  margin-left: 16px;
+ 
+}
+.info-btn-two button{
+  height: 40px;
+  width: 138px;
+  margin-left:31px ;
+  font-family: 'poppins', sans-serif;
+  font-size: 14px;
+  color: white;
+  
+  border: none;
+  cursor: pointer;
+  background-color: #a02604;
+}
+.right-content p {
+width: 392px;
+height: 70px;
+font-size: 23px;
+font-weight: 500;
+margin-left:31px ;
+margin-top: 23px;
 }
 
 /* страница про нас */
