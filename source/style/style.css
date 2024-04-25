@@ -374,6 +374,51 @@ header nav ul li.btn a:hover,
 .feedback form button:hover {
   background: #a02604;
 }
+/* страница новости */
+
+.hero-search {
+  display: flex;
+  justify-content: center;
+}
+.search-container {
+  position: relative;
+  display: inline-block;
+  margin-top: 74px;
+
+ 
+ }
+.search-container input {
+  background: #1c140f;
+  outline: none;
+  border: 0;
+  border-radius: 10px;
+  width: 305px;
+  font-family: 'poppins', sans-serif;
+  font-size: medium;
+
+  color: white;
+  line-height: 189%;
+  font-weight: 400;
+  padding: 9.5px 30px;
+}
+.search-container input[type='text'] {
+  padding-left: 65px; /* Отступ для изображения кнопки */
+}
+.search-container .search-button{
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 15px 25px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  background: #1c140f;
+  }
+
+.search-container input::placeholder {
+  color: white;
+}
+
 /* страница про нас */
 .hero-about {
   position: relative;
